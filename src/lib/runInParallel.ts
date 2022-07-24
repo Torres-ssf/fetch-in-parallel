@@ -2,11 +2,12 @@ import fetch from 'node-fetch'
 
 export const runInParallel = async (urls: string[], concorrent: number) => {
   let totalFetched = 0
-  const urlsToFetch = urls.length
   let inGoingFetchings = 0
+
+  const urlsToFetch = urls.length
   const resolvedUrls: string[] = []
 
-  return new Promise(resolve => {
+  return new Promise<string[]>(resolve => {
     const interval = setInterval(async () => {
       if (totalFetched === urlsToFetch) {
         clearInterval(interval)
