@@ -4,6 +4,9 @@
     "mocha": true,
     "node": true
   },
+  "globals": {
+    "NodeJS": true
+  },
   "extends": [
     "standard"
   ],
@@ -16,5 +19,10 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "import/newline-after-import": ["error", { "count": 3 }],
+    "no-multiple-empty-lines": [
+      "error",
+      { "max": 3, "maxEOF": 1, "maxBOF": 0 }
+    ]
   }
 }
