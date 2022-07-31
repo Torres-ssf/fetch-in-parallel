@@ -1,6 +1,6 @@
 # Fetch In Parallel
 
-This is a lab code to test the most optimal solution to fetch a given number of urls limited by a given number of how many urls should be fetched concurrently.
+This is a code lab to test the most optimal solution to fetch a given number of urls limited by a given number of how many urls should be fetched concurrently.
 
 ## Built With
 
@@ -48,7 +48,7 @@ npm run test:integration
 
 ## Authors
 
-👤 **Author1**
+👤 **Sergio Torres**
 
 - Github: [@Torres-ssf](https://github.com/Torres-ssf)
 - Linkedin: [torres-ssf](https://www.linkedin.com/in/torres-ssf/)
